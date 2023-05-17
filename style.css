@@ -1,0 +1,246 @@
+
+body {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0;
+    height: 100vh;
+}
+
+/*PREMIER PAGE */
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+
+header,
+.header__logo {
+    text-align: center;
+    height: 100px;
+}
+.titre_activite{
+   font-size: x-large;
+}
+/*GEOLOCALISATION*/
+.localisation {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 5px #eaeaea;
+    background-color: #f3f3f3;
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.iconloc {
+    padding-top: 25px;
+    padding-right: 10px;
+}
+.premier__texte{
+    margin-top: 29px;
+    max-height: 207px;
+    width: 100%;
+    min-width: 37px;
+    border-radius: 32px;
+    box-shadow: #959da5 0px 8px 24px;
+    cursor:pointer;
+    position: relative;
+    transition: filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.premier__texte:hover{
+    box-shadow: 1px 11px 14px 0px #6d6d6d;
+}
+
+
+
+
+/*FIN BLOC FONCTIONNEMENT*/
+/*BLOC ACTIVITES*/
+a {
+    text-decoration: none;
+    color: black;
+}
+#Activite{
+    background-color: #f2f2f2;
+    padding: 30px 0px 90px 0px;
+    margin-top: 40px;
+}
+
+.Activite {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+    
+}
+
+
+.cards_cardio,
+.cards_fitness,
+.cards_force,
+.cards_muscu {
+    
+    margin-top: 29px;
+    line-height: 6px;
+    max-height: 207px;
+    width: 25%;
+    min-width: 37px;
+    border-radius: 32px;
+    box-shadow: #959da5 0px 8px 24px;
+    cursor: pointer;
+    position: relative;
+    transition: filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cards_cardio:hover,
+.cards_fitness:hover,
+.cards_muscu:hover,
+.cards_force:hover {
+    box-shadow: 1px 11px 14px 0px #6d6d6d;
+}
+
+.cards_footer {
+    padding: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/*FIN BLOC ACTIVITES*/
+/*FOOTER*/
+.footer {
+    background-color: #353535;
+}
+
+
+.footer h3 {
+    color: #fff;
+    margin-left: 42px;
+    font-family: Shrikhand, "cursive";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*FIN FOOTER*/
+
+/*BLOC ACTIVITES*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.cards_activite {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+
+
+
+.cards_text {
+    padding-left: 10px;
+    flex: 1;
+    line-height: normal;
+}
+
+
+.heart {
+    display: flex;
+    justify-content: center;
+}
+
+.img_activite {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+/*FIN BLOC ACTIVITE*/
+
+@media screen and (max-width: 768px) {
+    .header,
+    .header__logo {
+        height: 60px;
+        width: 60px;
+    }
+    
+    
+    #nav{
+        margin-bottom: 40px;
+        background-color: #fafafa;
+    }
+    
+    
+    
+    .cards{
+        flex-direction:column;
+        width:400%;
+        gap:24px;
+    }
+    
+    
+    
+    
+    .cards_activite{
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-left: 10px;
+    }
+    
+    
+    .cards_cardio,
+    .cards_fitness,
+    .cards_force,
+    .cards_muscu 
+    {
+        width: 90%;
+        display:flex;
+        flex-direction:column;
+    }
+    
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-right: 70px;
+    }
+    
+    
+    .footer {
+        line-height: 1;
+    }
+    
+
+    
+}
+
+.backlink{
+display: flex;
+}
+#mention{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+}
+.ml{
+    display:flex;
+}
+.bloc{
+ display: flex;
+}
